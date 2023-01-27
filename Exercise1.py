@@ -19,9 +19,9 @@ error_10000 = abs(pi - approx_10000)
 print(error_100, error_1000, error_10000)
 
 error = 1
-n = 10000
+n = 5000020
 while error > 10**(-7):
-    n += n+1
+    n = n+1
     error = abs(pi - Leibniz(n))
 
 print(n)
